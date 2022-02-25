@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title> Calendar Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {text-align: center;}
+    </style>
+    <link rel="stylesheet" href="evo-calendar.min.css"/>
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css"/>
+</head>
+
+<body>
+    <div id="demo"><h1>Calendar Test Page</h1></div>
+    <div class="hero">
+        
+    <div id="calendar"></div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+
+    <script>
+        // initialize your calendar, once the page's DOM is ready
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+
+            })
+        })
+        </script>
+</body>
+
+</html>

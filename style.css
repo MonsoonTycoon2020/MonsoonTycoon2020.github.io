@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+    position: relative;
+}
+
+#calendar{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#demo {
+    background: #CE5937;
+    background: -moz-linear-gradient(45deg, #CE5937 0%, #1C6EA4 0%, #C59237 100%);
+    background: -webkit-linear-gradient(45deg, #CE5937 0%, #1C6EA4 0%, #C59237 100%);
+    background: linear-gradient(45deg, #CE5937 0%, #1C6EA4 0%, #C59237 100%);
+    }
